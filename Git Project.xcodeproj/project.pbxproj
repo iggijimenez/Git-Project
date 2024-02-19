@@ -11,6 +11,7 @@
 		A4FE6FA52B8312F9001075CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE6FA42B8312F9001075CB /* ContentView.swift */; };
 		A4FE6FA72B8312FC001075CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FE6FA62B8312FC001075CB /* Assets.xcassets */; };
 		A4FE6FAA2B8312FC001075CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FE6FA92B8312FC001075CB /* Preview Assets.xcassets */; };
+		A4FE6FB12B8314CB001075CB /* ModelVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE6FB02B8314CB001075CB /* ModelVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A4FE6FA42B8312F9001075CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4FE6FA62B8312FC001075CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FE6FA92B8312FC001075CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4FE6FB02B8314CB001075CB /* ModelVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A4FE6FA22B8312F9001075CB /* Git_ProjectApp.swift */,
 				A4FE6FA42B8312F9001075CB /* ContentView.swift */,
+				A4FE6FB02B8314CB001075CB /* ModelVIew.swift */,
 				A4FE6FA62B8312FC001075CB /* Assets.xcassets */,
 				A4FE6FA82B8312FC001075CB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FE6FB12B8314CB001075CB /* ModelVIew.swift in Sources */,
 				A4FE6FA52B8312F9001075CB /* ContentView.swift in Sources */,
 				A4FE6FA32B8312F9001075CB /* Git_ProjectApp.swift in Sources */,
 			);

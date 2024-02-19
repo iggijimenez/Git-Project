@@ -12,10 +12,13 @@ struct ContentView: View {
     @State private var isPresented = false
     
     var body: some View {
-        Button("Show modal") {
-            self.isPresented = true
-        }.sheet(isPresented: $isPresented) {
-            Text("This is the modal screen")
+        NavigationView {
+            Button("Show modal") {
+                self.isPresented = true
+            }.sheet(isPresented: $isPresented) {
+                ModelVIew()
+            }
+            .navigationTitle("Xcode and Git")
         }
     }
 }
