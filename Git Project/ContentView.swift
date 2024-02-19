@@ -15,7 +15,7 @@ struct ContentView: View {
                 Text("This is the content view")
                 NavigationLink(destination: ModelVIew(), label: {
                     Text("Press Next")
-                }).foregroundColor(.purple)
+                }).foregroundColor(.blue)
                     .navigationTitle("Xcode and Git")
             }
         }
